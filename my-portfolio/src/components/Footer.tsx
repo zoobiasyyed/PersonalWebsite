@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="text-center py-4 border-t mt-8 text-sm text-gray-500">
+    <footer className="text-center py-4 text-sm text-gray-500 bg-pink-100">
       <p>© 2025 Zoobia Syyed. All rights reserved.</p>
       <div className="flex justify-center gap-4 mt-2">
         <a

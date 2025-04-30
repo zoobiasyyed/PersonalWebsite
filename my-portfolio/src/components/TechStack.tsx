@@ -1,24 +1,11 @@
-import Image from "next/image";
-
-
-
-export default function Header() {
+export default function TechStack() {
   return (
-    <div>
-      <header className="w-full flex justify-center py-4 ">
-        <h1 className="text-3xl font-bold center text-black m-5">
-          Hi! I&apos;m Zoobia
-        </h1>
-      </header>
+    <>
       <div className="flex justify-center">
-        <Image
-          className="rounded-full w-1/3 border-solid border-white border-20 p-5 m-10"
-          src={"/facephoto.jpg"}
-          alt="this is a photo of me"
-          width="200"
-          height="200"
-        />
-        <h1 className="text-black w-1/3 m-10 text-center">
+        <h1 className="text-2xl font-bold center text-black m-5">My Tech Stack</h1>
+      </div>
+      <div>
+        <h1 className="text-black p-10 text-center">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry&apos;s standard dummy text
           ever since the 1500s, when an unknown printer took a galley of type
@@ -30,6 +17,6 @@ export default function Header() {
           including versions of Lorem Ipsum.
         </h1>
       </div>
-    </div>
+    </>
   );
 }
