@@ -1,11 +1,26 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import Projects from "./Projects";
+import Experience from "./Experience";
+import TechStack from "./TechStack";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+const backgroundImageStyle = {
+  backgroundImage: `url(/strawbBackground.png)`,
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+  backgroundAttachment: "fixed",
+  minHeight: "100vh",
+};
+
+export default function Layout() {
   return (
     <>
-      <Header />
-      <main>{children}</main>
+      <div style={backgroundImageStyle}>
+        <Header />
+        <TechStack/>
+        <Projects />
+        <Experience/>
+      </div>
       <Footer />
     </>
   );
