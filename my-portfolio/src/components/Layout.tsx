@@ -5,7 +5,7 @@ import Experience from "./Experience";
 import TechStack from "./TechStack";
 
 const backgroundImageStyle = {
-  backgroundImage: `url(/strawbBackground.png)`,
+  backgroundImage: `url(/lightBlue.png)`,
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
   backgroundAttachment: "fixed",
