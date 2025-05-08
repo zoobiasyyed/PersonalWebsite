@@ -1,7 +1,10 @@
 import Layout from "../components/Layout";
+import LandingPage from "../components/Layout";
 
 export default function Home() {
   return (
-    <Layout/>
+    <Layout>
+      <LandingPage children={undefined} />
+    </Layout>
   );
 }
